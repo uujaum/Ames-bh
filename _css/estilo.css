@@ -30,15 +30,16 @@ div#logo {
 
 div#logo h1 {
 	position: absolute;
-	left: 170px;
-	top: 50px;
+	left: 200px;
+	top: 60px;
 	color: #ffffff;
+	font-size: 22pt;
 }
 
 div#imagem-que-muda{
 	width: 20%;
 	position: absolute;
-	left: 1150px;
+	left: 1180px;
 	top: 30px;
 }
 
@@ -57,7 +58,7 @@ nav#menu ul {
    text-transform: uppercase;
    position: absolute;
    top: 140px;
-   left: 220px; 
+   left: 200px; 
 }
 
 nav#menu li {
@@ -79,8 +80,9 @@ nav#menu a {
 }
 
 nav#menu a:hover {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: underline;
+	font-weight: bold;
 } 
 
 
