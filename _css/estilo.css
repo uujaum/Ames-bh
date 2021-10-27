@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: red;
+	background-color: white;
 }
 
 /* CABECALHO - HEADER */
@@ -15,6 +15,7 @@ body {
 header#cabecalho {
 	padding: 10px;
 	background-color: #0000FF;
+	height: 200px;
 }
 
 div#cabecalho-principal {
@@ -39,6 +40,7 @@ div#logo h1 {
 	font-size: 17pt;
 	text-transform: uppercase;
 	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
 }
 
 div#imagem-que-muda{
@@ -59,7 +61,7 @@ nav#menu ul {
    list-style: none;
    text-transform: uppercase;
    position: absolute;
-   top: 200px;
+   top: 170px;
    left: 200px; 
 }
 
@@ -206,40 +208,7 @@ section#newslatter h3 {
 
 /* FOOTER - RODAPE */
 
-footer#rodape div#rodape-inicial {
-	background-color: #0000FF;
-	width: 100%;
-	height: 100%;
-	padding: 15px;
-	display: flex;
-	justify-content: space-around;
-}
-
-footer#rodape div#rodape-icone {
-	width: 20%;
-	position: relative;
-	left: 10px;
-}
-
-footer#rodape div#rodape-frase {
-	width: 60%;
-	text-align: center;
-	color: white;
-	font-size: 15pt;
-}
-
-footer#rodape div#rodape-frase p {
-	position: relative;
-	top: 50px;
-	right: 80px;
-}
-
-footer#rodape div#rodape-sociais {
-	position: relative;
-	top: 25px;
-}
-
-footer#rodape div#rodape-final {
+footer#rodape {
 	background-color: #0000CD;
 	width: 100%;
 	height: 100%;
@@ -248,11 +217,32 @@ footer#rodape div#rodape-final {
 	font-weight: bolder;
 }
 
+div#rodape-final {
+	display: flex;
+}
+
 footer#rodape div#rodape-final p {
-	text-align: center;
+	text-align: left;
 }
 
 footer#rodape div#rodape-final p a {
 	color: #fff;
 	text-decoration: none;
+}
+
+div#rodape-final div#rodape-sociais {
+	position: relative;
+	display: flex;
+	left: 740px;
+}
+
+div#rodape-final div#rodape-sociais a {
+	margin-left: 10px;
+}
+
+div#rodape-final div#rodape-direitos p {
+	position: relative;
+	top: 10px;
+	left: 5px;
+	font-family: 'Montserrat', sans-serif;
 }
