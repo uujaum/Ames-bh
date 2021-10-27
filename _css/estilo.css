@@ -179,16 +179,27 @@ section#secao-cursinho button {
 /* SECTION - ENTIDADES */
 
 section#entidades-parceiras {
-	background-color: LawnGreen;
+	background-color: #ffffff;
 	width: 100%;
 	height: 100%;
 	padding: 15px;
+	text-align: center;
 }
 
 section#entidades-parceiras h3 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 15pt;
+	font-size: 18pt;
+	color: #000000;
+	font-weight: bolder;
+}
+
+section#entidades-parceiras h3 span#parceiro {
+	color: blue;
+}
+
+section#entidades-parceiras img {
+	margin: 20px;
 }
 
 
