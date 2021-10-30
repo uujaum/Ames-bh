@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+/* MAIN - CONTATO */
+
+main#contato {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+main#contato h3 {
+	font-size: 25pt;
+	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 70px;
+}
+
+/* ASIDE - ICONE-CONTATO */
+
+aside#icone-contato {
+	margin: 20px;
+	width: 40%;
+	position: relative;
+	left: 100px;
+	display: inline-block;
+}
+
+/* SECTION - FORMULARIO */
+
+section#formulario {
+	display: inline-block;
+	position: absolute;
+	float: right;
+	width: 50%;
+}
+
+input , textarea {
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	width: 300px;
+}
