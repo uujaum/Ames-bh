@@ -21,23 +21,25 @@ h5 {
 }
 
 hr.tag-hr {
-	width: 150px;
+	width: 50%;
 	margin: 5px 5px 5px 0px;
 }
+
+
 
 /* SECTION - DIRETORIA */
 
 section#diretoria {
 	width: 100%;
 	height: 100%;
-	background-color: green;
 }
 
 div#diretoria-texto {
 	width: 100%;
 	height: 100%;
-	background-color: purple;
 	padding: 60px 30px 30px;
+	background-color: #fff;
+	color: #000;
 }
 
 div#diretoria-texto h2 {
@@ -52,18 +54,49 @@ div#diretoria-texto p {
 /* DIV - DIRETORIA EXECUTIVA */
 
 div#diretoria-executiva {
-	background-color: blue;
 	width: 100%;
 	height: 100%;
 	padding: 30px;
+	background-color: #000;
+	color: #fff;
 }
 
 div#diretoria-executiva h3 {
 	font-size: 16pt;
 }
 
-div.dir-executiva {
-	box-sizing: border-box;
-	display: flex;
+div#diretoria-executiva div.dir-executiva {
 	width: 30%;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	left: 150px;
+}
+
+/* DIV - DIRETORIA DE BASE */
+
+div#diretoria-base {
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+}
+
+div#div#diretoria-base h3 {
+	font-size: 16pt;
+}
+
+div#diretoria-base div.dir-base {
+	width: 20%;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	left: 150px;
+}
+
+div#diretoria-base div.dir-base-2 {
+	width: 20%;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	left: 300px;
 }
