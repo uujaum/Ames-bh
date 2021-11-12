@@ -12,12 +12,12 @@ h4 {
 	margin: 5px 5px 5px 0px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
-	font-size: 15pt;
+	font-size: 13pt;
 }
 
 h5 {
 	margin: 5px 5px 5px 0px;
-	font-size: 13pt;
+	font-size: 9pt;
 }
 
 hr.tag-hr {
@@ -25,7 +25,11 @@ hr.tag-hr {
 	margin: 5px 5px 5px 0px;
 }
 
-
+section#diretoria img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
 
 /* SECTION - DIRETORIA */
 
@@ -43,7 +47,7 @@ div#diretoria-texto {
 }
 
 div#diretoria-texto h2 {
-	font-size: 18pt;
+	font-size: 20pt;
 }
 
 div#diretoria-texto p {
@@ -57,20 +61,39 @@ div#diretoria-executiva {
 	width: 100%;
 	height: 100%;
 	padding: 30px;
-	background-color: #000;
-	color: #fff;
+	background-color: #0000FF;
+	color: #000;
 }
 
 div#diretoria-executiva h3 {
-	font-size: 16pt;
+	font-size: 18pt;
+	color: #fff;
 }
 
 div#diretoria-executiva div.dir-executiva {
-	width: 30%;
+	width: 24%;
 	display: inline-block;
-	padding: 10px;
 	position: relative;
 	left: 150px;
+	background-color: #fff;
+	margin: 10px;
+	padding: 30px 20px 30px 55px;
+}
+
+img#beatriz {
+	object-position: bottom right;
+}
+
+img#tarsila {
+	object-position: top;
+}
+
+img#luisa {
+	object-position: bottom left;
+}
+
+img#jamily {
+	object-position: top;
 }
 
 /* DIV - DIRETORIA DE BASE */
@@ -79,10 +102,13 @@ div#diretoria-base {
 	width: 100%;
 	height: 100%;
 	padding: 30px;
+	background-color: #000;
+	color: #000;
 }
 
-div#div#diretoria-base h3 {
-	font-size: 16pt;
+div#diretoria-base h3 {
+	font-size: 18pt;
+	color: #fff;
 }
 
 div#diretoria-base div.dir-base {
@@ -90,7 +116,10 @@ div#diretoria-base div.dir-base {
 	display: inline-block;
 	padding: 10px;
 	position: relative;
-	left: 150px;
+	left: 100px;
+	background-color: #fff;
+	margin: 10px;
+	padding: 40px 30px;
 }
 
 div#diretoria-base div.dir-base-2 {
@@ -99,4 +128,8 @@ div#diretoria-base div.dir-base-2 {
 	padding: 10px;
 	position: relative;
 	left: 300px;
+}
+
+img#niaggo {
+	object-position: top;
 }
